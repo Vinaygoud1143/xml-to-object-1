@@ -3,7 +3,7 @@ package com.vinay.service;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
-//@JsonPropertyOrder(value = {"employeenumber","employeename","employeesalary"})
+@JsonPropertyOrder(value = {"employeenumber","employeename","employeesalary"})
 public class Employee {
 
 	private int employeenumber;
